@@ -28,7 +28,7 @@ classifiers = [
 "Documentation" = "https://github.com/cvcvka5/linkwalker#readme"
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
 
 [tool.setuptools]
 include-package-data = true
