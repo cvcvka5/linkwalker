@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linkwalker"
+version = "0.9.0"
+description = "Deep URL crawler for Python supporting dynamic and static content, domain restrictions, and callbacks."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name="Ulus Vatansever", email="ulusvatansever@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["crawler", "web-scraping", "url", "deep-crawl", "automation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: WWW/HTTP",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/cvcvka5/linkwalker"
+"Repository" = "https://github.com/cvcvka5/linkwalker"
+"Documentation" = "https://github.com/cvcvka5/linkwalker#readme"
+
+[tool.setuptools.packages.find]
+include = ["linkwalker*"]
+where = ["."]
+
+[tool.setuptools]
+include-package-data = true
