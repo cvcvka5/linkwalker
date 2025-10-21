@@ -1,7 +1,14 @@
-<img src="assets/banner.png" width=800>
-# LinkWalker
+<p align="center">
+  <img src="assets/banner.png" width="400" alt="LinkWalker">
+</p>
 
-LinkWalker is a Python library for **deep URL crawling and walking**. It supports both **dynamic browser-based crawling** (using Playwright) and **static HTTP crawling**, allowing you to traverse websites, extract links, and filter URLs with ease. Perfect for developers building scrapers, bots, or web analyzers.
+<h1 align="center">
+  <strong>LinkWalker</strong>
+</h1>
+
+<p align="center">LinkWalker is a Python library for **deep URL crawling and walking**. It supports both **dynamic browser-based crawling** (using Playwright) and **static HTTP crawling**, allowing you to traverse websites, extract links, and filter URLs with ease. Perfect for developers building scrapers, bots, or web analyzers.</p>
+
+<br>
 
 ## Features
 
