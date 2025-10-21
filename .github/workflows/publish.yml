@@ -28,8 +28,9 @@ jobs:
 
       - name: Build release distributions
         run: |
+          # NOTE: put your own distribution build steps here.
           python -m pip install --upgrade pip build
-          python -m build --sdist --wheel --outdir dist linkwalker
+          python -m build --sdist --wheel --outdir dist ../
 
 
       - name: Upload distributions
